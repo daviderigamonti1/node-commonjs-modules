@@ -2,7 +2,7 @@ function fullNameObj(firstName, lastName) {
     return {
         firstName,
         lastName
-    }
+    };
 }
 
-module.export = fullNameObj;
+module.exports = fullNameObj;

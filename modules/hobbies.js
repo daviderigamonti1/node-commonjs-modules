@@ -1,11 +1,10 @@
 function hobbiesObj(hobbyOne, hobbyTwo, hobbyThree) {
-    const hobbiesArr = [
-        hobbyOne,
-        hobbyTwo,
-        hobbyThree
-    ]
     return {
-        hobbies: hobbiesArr
-    }
+        hobbies: [
+            hobbyOne,
+            hobbyTwo,
+            hobbyThree
+        ]
+    };
 }
-module.export = hobbiesObj;
+module.exports = hobbiesObj;
