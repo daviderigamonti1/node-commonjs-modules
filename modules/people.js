@@ -6,7 +6,7 @@ function userInfo(firstName, lastName, hobbyOne, hobbyTwo, hobbyThree) {
     const hobbies = hobbiesObj(hobbyOne, hobbyTwo, hobbyThree);
     return {
         fullName: fullName.firstName + ' ' + fullName.lastName,
-        hobbies: hobbies.hobbies
+        hobbies: hobbies.hobbies.join(", ")
     };
 }
 module.exports = userInfo;
