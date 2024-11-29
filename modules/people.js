@@ -1,9 +1,9 @@
 const fullNameObj = require("./names");
 const hobbiesObj = require("./hobbies");
 
-function userInfo() {
-    const fullName = fullNameObj('Mario', 'Rossi');
-    const hobbies = hobbiesObj('Reading', 'Swimming', 'Cycling');
+function userInfo(firstName, lastName, hobbyOne, hobbyTwo, hobbyThree) {
+    const fullName = fullNameObj(firstName, lastName);
+    const hobbies = hobbiesObj(hobbyOne, hobbyTwo, hobbyThree);
     return {
         fullName: fullName.firstName + ' ' + fullName.lastName,
         hobbies: hobbies.hobbies
